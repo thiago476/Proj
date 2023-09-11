@@ -1,33 +1,43 @@
-*{ margin:0;
-    padding:0;
-} 
+* {
+    margin: 0;
+    padding: 0;
+}
 
-body{ font:100% normal Arial, helvetica, sans-serif; background: #161712;}
+body {
+    font: 100% normal Arial, helvetica, sans-serif;
+    background: #161712;
+}
 
-form,input,select,textarea{margin:0; padding:0 color#ffffff;}
+form,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0 color#ffffff;
+}
 
 div.box {
-    margin:0 auto;
+    margin: 0 auto;
     width: 900px;
-    background:#222222;
+    background: #222222;
     position: relative;
     top: 100px;
-    border:1px solid #262626;
+    border: 1px solid #262626;
 }
-      
+
 div.box h1 {
     color: #ffffff;
     font-size: 18px;
     text-transform: uppercase;
     padding: 5px 0 5px 5px;
     border-bottom: 1px solid #161712;
-    border-top:1px solid #20211e;
+    border-top: 1px solid #20211e;
 }
 
 div.box label {
     width: 100%;
     display: block;
-    background:#262626;
+    background: #262626;
     border-top: 1px solid #262626;
     border-bottom: 1px solid 161712;
     padding: 10px 0 10px 0;
@@ -35,7 +45,7 @@ div.box label {
 
 div.box label span {
     display: block;
-    color:#bbbbbb;
+    color: #bbbbbb;
     font-size: 12px;
     float: left;
     width: 100%;
@@ -44,16 +54,16 @@ div.box label span {
 }
 
 div.box .imput_text {
-     padding: 10px 10px;
-     width: 200px;
-     background: #262626;
-     border-bottom: 1px double #171717;
-     border-left: 1px double #333333;
-     border-right: 1px double #333333;
+    padding: 10px 10px;
+    width: 200px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
 
 }
 
-div.box .message{
+div.box .message {
 
     padding: 7px 7px;
     width: 350px;
@@ -66,18 +76,15 @@ div.box .message{
     height: 150px;
 }
 
- div.box  .button{
+div.box .button {
     margin: 0 0 10px 0;
     padding: 4px 7px;
     background: #cc0000;
-    border:0px;
-    position:relative;
-    top:20px;
+    border: 0px;
+    position: relative;
+    top: 20px;
     width: 100px;
     border-bottom: 1px double #660000;
-    
-
- }
 
 
-
+}
