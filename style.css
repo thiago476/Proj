@@ -21,13 +21,13 @@ div.box h1 {
     text-transform: uppercase;
     padding: 5px 0 5px 5px;
     border-bottom: 1px solid #161712;
-    border-top:1px solid #161712;
+    border-top:1px solid #20211e;
 }
 
 div.box label {
     width: 100%;
     display: block;
-    background:#1c1c1c;
+    background:#262626;
     border-top: 1px solid #262626;
     border-bottom: 1px solid 161712;
     padding: 10px 0 10px 0;
@@ -57,7 +57,7 @@ div.box .message{
 
     padding: 7px 7px;
     width: 350px;
-    background: #262626;
+    background: #f1e9e9;
     border-bottom: 1px double #171717;
     border-top: 1px double #171717;
     border-left: 1px double #333333;
