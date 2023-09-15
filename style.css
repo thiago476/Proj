@@ -4,6 +4,9 @@
 }
 
 body {
+    background-image: url("img/pexels-david-bartus-1166209.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font: 100% normal Arial, helvetica, sans-serif;
     /* background: #161712; */
 }
@@ -20,10 +23,11 @@ div.box {
     margin: 0 auto;
     width: 900px;
     /* background-color: #222222; */
-    background-color: rgb(34, 133, 100);
+    background-color: rgb(148, 184, 172);
     position: relative;
     top: 100px;
     border: 1px solid #262626;
+    /* opacity: 60%; */
 }
 
 div.box h1 {
@@ -42,15 +46,17 @@ div.box label {
     border-top: 1px solid #262626;
     border-bottom: 1px solid 161712;
     padding: 10px 0 10px 0;
+    /* opacity: 50%; */
 }
 
 div.box label span {
     display: block;
-    color: #bbbbbb;
+    color: #f5f4f4;
+    background-origin: border-box;
     font-size: 12px;
     float: left;
     width: 100%;
-    text-align: right;
+    text-align: left;
     padding: 5px 20px 0 0;
 }
 
@@ -61,11 +67,9 @@ div.box .input_text {
     border-bottom: 1px double #171717;
     border-left: 1px double #333333;
     border-right: 1px double #333333;
-
 }
 
 div.box .message {
-
     padding: 7px 7px;
     width: 350px;
     background: #f1e9e9;
@@ -86,10 +90,9 @@ div.box .button {
     top: 20px;
     width: 100px;
     border-bottom: 1px double #660000;
-    
 }
 
- .button:hover {
-    background-color: #ffffff; 
+.button:hover {
+    background-color: #ffffff;
     color: #12d272;
- }
+}

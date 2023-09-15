@@ -1,9 +1,10 @@
-const form = document.getElementById('form')
-const username = document.getElementsByld('username')
-const emailinput = document.querySelector("#name")
-const messageTextarea = document.querySelector("message")
+let form = document.getElementById('form')
+let username = document.getElementsByld('username')
+let emailinput = document.querySelector("#name")
+let messageTextarea = document.querySelector("message")
 
-
+let assunto = document.getElementById("#message")
+let labelmessage = document.querySelector("")
 
 
 
